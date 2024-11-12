@@ -15,9 +15,12 @@ namespace ProyectoBDDM.models
         private string apellido2P;
         private string telefonoP;
         private string correoP;
-        private string passwordP;
 
-        public Profesor(int profesor_id, string nombre1P, string nombre2P, string apellido1P, string apellido2P, string telefonoP, string correoP, string passwordP)
+        public Profesor() 
+        { 
+        
+        }
+        public Profesor(int profesor_id, string nombre1P, string nombre2P, string apellido1P, string apellido2P, string telefonoP, string correoP)
         {
             this.profesor_id = profesor_id;
             this.nombre1P = nombre1P;
@@ -26,7 +29,6 @@ namespace ProyectoBDDM.models
             this.apellido2P = apellido2P;
             this.telefonoP = telefonoP;
             this.correoP = correoP;
-            this.passwordP = passwordP;
         }
 
         public int Profesor_id { get => profesor_id; set => profesor_id = value; }
@@ -36,6 +38,5 @@ namespace ProyectoBDDM.models
         public string Apellido2P { get => apellido2P; set => apellido2P = value; }
         public string TelefonoP { get => telefonoP; set => telefonoP = value; }
         public string CorreoP { get => correoP; set => correoP = value; }
-        public string PasswordP { get => passwordP;set => passwordP = value; }  
     }
 }

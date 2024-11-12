@@ -9,25 +9,24 @@ namespace ProyectoBDDM.models
     class Curso
     {
         private int curso_id;
-        private string descrpicionC;
-        private string nombreC;
-        private string cateogoriaC;
+        private string grupo;
+        
+        
 
         public Curso()
         {
         }
 
-        public Curso(int curso_id, string descrpicionC, string nombreC, string cateogoriaC)
+        public Curso(int curso_id, string grupo)
         {
             this.curso_id = curso_id;
-            this.descrpicionC = descrpicionC;
-            this.nombreC = nombreC;
-            this.cateogoriaC = cateogoriaC;
+            this.grupo = grupo;
+            
+
         }
 
         public int Curso_id { get => curso_id; set => curso_id = value; }
-        public string DescrpicionC { get => descrpicionC; set => descrpicionC = value; }
-        public string NombreC { get => nombreC; set => nombreC = value; }
-        public string CateogoriaC { get => cateogoriaC; set => cateogoriaC = value; }
+        public string DescrpicionC { get => grupo; set => grupo = value; }
+   
     }
 }

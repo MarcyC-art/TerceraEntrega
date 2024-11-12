@@ -1,1 +1,1 @@
-C:\Users\user\Documents\TerceraEntrega\ProyectoBDDM\ProyectoBDDM\obj\Debug\ProyectoBDDM.csproj.AssemblyReference.cache
+C:\Users\reysa\OneDrive\Escritorio\tercera entrega base de datos\TerceraEntrega\ProyectoBDDM\ProyectoBDDM\obj\Debug\ProyectoBDDM.csproj.AssemblyReference.cache
